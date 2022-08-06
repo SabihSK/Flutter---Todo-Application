@@ -7,7 +7,7 @@ import 'package:todo/view/screens/email_log_in_screen.dart';
 import 'package:todo/view/screens/home.dart';
 import 'package:todo/view/screens/settings_screen.dart';
 import 'package:todo/view/screens/sign_up_screen.dart';
-import 'package:todo/view/screens/user_name_log_in_screen_dart';
+import 'package:todo/view/screens/user_name_log_in_screen.dart';
 
 class WelcomScreen extends ConsumerWidget {
   static const route = "/";
@@ -68,16 +68,19 @@ class WelcomScreen extends ConsumerWidget {
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30)),
                       ),
-                      child: Text(
-                        "Sign Up",
-                        style: TextStyle(
-                          color: AdaptiveTheme.of(context)
-                                      .mode
-                                      .name
-                                      .toUpperCase() ==
-                                  "DARK"
-                              ? whiteColor
-                              : blackColor,
+                      child: Padding(
+                        padding: EdgeInsets.all(width * 0.05),
+                        child: Text(
+                          "Sign Up",
+                          style: TextStyle(
+                            color: AdaptiveTheme.of(context)
+                                        .mode
+                                        .name
+                                        .toUpperCase() ==
+                                    "DARK"
+                                ? whiteColor
+                                : blackColor,
+                          ),
                         ),
                       ),
                     ),
@@ -85,7 +88,7 @@ class WelcomScreen extends ConsumerWidget {
                 ],
               ),
               SizedBox(
-                height: height * 0.003,
+                height: height * 0.01,
               ),
               Row(
                 children: [
@@ -113,16 +116,19 @@ class WelcomScreen extends ConsumerWidget {
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30)),
                       ),
-                      child: Text(
-                        "Email Log In",
-                        style: TextStyle(
-                          color: AdaptiveTheme.of(context)
-                                      .mode
-                                      .name
-                                      .toUpperCase() ==
-                                  "DARK"
-                              ? whiteColor
-                              : blackColor,
+                      child: Padding(
+                        padding: EdgeInsets.all(width * 0.05),
+                        child: Text(
+                          "Email Log In",
+                          style: TextStyle(
+                            color: AdaptiveTheme.of(context)
+                                        .mode
+                                        .name
+                                        .toUpperCase() ==
+                                    "DARK"
+                                ? whiteColor
+                                : blackColor,
+                          ),
                         ),
                       ),
                     ),
@@ -130,7 +136,7 @@ class WelcomScreen extends ConsumerWidget {
                 ],
               ),
               SizedBox(
-                height: height * 0.003,
+                height: height * 0.01,
               ),
               Row(
                 children: [
@@ -158,16 +164,19 @@ class WelcomScreen extends ConsumerWidget {
                         shape: RoundedRectangleBorder(
                             borderRadius: BorderRadius.circular(30)),
                       ),
-                      child: Text(
-                        "Username Log In",
-                        style: TextStyle(
-                          color: AdaptiveTheme.of(context)
-                                      .mode
-                                      .name
-                                      .toUpperCase() ==
-                                  "DARK"
-                              ? whiteColor
-                              : blackColor,
+                      child: Padding(
+                        padding: EdgeInsets.all(width * 0.05),
+                        child: Text(
+                          "Username Log In",
+                          style: TextStyle(
+                            color: AdaptiveTheme.of(context)
+                                        .mode
+                                        .name
+                                        .toUpperCase() ==
+                                    "DARK"
+                                ? whiteColor
+                                : blackColor,
+                          ),
                         ),
                       ),
                     ),
