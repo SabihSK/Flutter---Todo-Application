@@ -1,8 +1,6 @@
 # todo
 
-A todo app make on flutter.
-Flutter version = 3.0.3
-Dart SDK version = 2.17.5
+A new Flutter project.
 
 ## Getting Started
 
@@ -16,5 +14,3 @@ A few resources to get you started if this is your first Flutter project:
 For help getting started with Flutter development, view the
 [online documentation](https://docs.flutter.dev/), which offers tutorials,
 samples, guidance on mobile development, and a full API reference.
-"# Flutter---Todo-Application" 
-"# Flutter---Todo-Application" 

@@ -1,11 +1,8 @@
 import 'package:adaptive_theme/adaptive_theme.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:todo/controllers/theam_controller.dart';
 import 'package:todo/utils/colors_constants.dart';
 import 'package:todo/view/screens/email_log_in_screen.dart';
-import 'package:todo/view/screens/home.dart';
-import 'package:todo/view/screens/settings_screen.dart';
 import 'package:todo/view/screens/sign_up_screen.dart';
 import 'package:todo/view/screens/user_name_log_in_screen.dart';
 
@@ -18,7 +15,6 @@ class WelcomScreen extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     double height = MediaQuery.of(context).size.height;
     double width = MediaQuery.of(context).size.width;
-    var themeControllerVariable = ref.watch(themeControllerInstance);
     return Scaffold(
       body: Center(
         child: SizedBox(

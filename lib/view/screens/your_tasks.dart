@@ -18,22 +18,6 @@ class YourTasksScreen extends ConsumerStatefulWidget {
 }
 
 class _YourTasksScreenState extends ConsumerState<YourTasksScreen> {
-  //     var youtaskControllerVariable = ref.watch(youtaskControllerInstance);
-  // @override
-  // void initState() {
-  //   // TODO: implement initState
-  //   if (widget.isEdit[0]) {
-
-  //     youtaskControllerVariable.title = widget.isEdit[2]['title'];
-  //     youtaskControllerVariable.description = widget.isEdit[2]['description'];
-  //     youtaskControllerVariable.val = widget.isEdit[2]['priority'];
-  //     youtaskControllerVariable.pickDateTime = widget.isEdit[2]['scheduled'];
-  //     youtaskControllerVariable.hourlyReminder =
-  //         widget.isEdit[2]['hourlyReminder'];
-  //   }
-  //   super.initState();
-  // }
-
   @override
   void dispose() {
     // TODO: implement dispose
